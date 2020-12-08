@@ -1,0 +1,7 @@
+#log {
+    padding: 1px 0;
+    background-color: lightgrey;
+    height: auto;
+    word-break: break-all;
+    white-space: break-spaces;
+}
