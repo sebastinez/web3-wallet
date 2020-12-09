@@ -17,17 +17,11 @@
               <input type="text" class="form-control" id="seed">
               <div id="seedHelp" class="form-text">Your seed phrase will never leave your computer.</div>
             </div>
-            <div class="mb-3">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" readonly>
-            </div>
-            <div class="mb-3">
-                <label for="privateKey" class="form-label">PrivateKey</label>
-                <input type="password" class="form-control" id="privateKey" readonly>
-              </div>
+           <pre id="addresses"></pre>
             <button onclick="createWallet()" class="btn btn-primary">Generate Wallet</button>
+            <button onclick="clearWallet()" class="btn btn-primary">Clear Wallet</button>
 
-</div>
+        </div>
     <script src="./web3.js"></script>
     <script src="./app.js"></script>
 </body>
